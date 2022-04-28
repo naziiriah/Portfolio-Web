@@ -41,6 +41,48 @@ const Body = () => {
                 </div>
             </article>
 
+            <article className="projects__projects">
+                <div className="main__head_empty"></div>
+                <h1 className="projects__work_title">Projects</h1>
+                <p className="project__work_line"></p>
+                <section className="projects__grid">
+                    <div className="project__work_info">
+                
+                    </div>
+                    <div className="project__work_info">
+                
+                    </div>
+                    <div className="project__work_info">
+                
+                    </div>
+                </section>
+            </article>
+            <article className="projects__blogs">
+                <div className="main__head_empty"></div>
+                <h1 className="projects__work_title">Blogs/Contents</h1>
+                <p className="project__work_line"></p>
+                <section className="projects__grid">
+                    <div className="project__work_info">
+                
+                    </div>
+                    <div className="project__work_info">
+                
+                    </div>
+                    <div className="project__work_info">
+                
+                    </div>
+                </section>
+                <section className="projects__grid">
+                    <div className="project__work_info">
+                
+                    </div>
+                    <div className="project__work_info">
+                
+                    </div>
+                </section>
+
+            </article>
+
         </section>
     )
 }

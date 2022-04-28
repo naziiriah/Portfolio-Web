@@ -1,8 +1,22 @@
+
 *{
     padding: 0;
     margin:0;
 }
-// animation color 69470B
+
+
+@mixin DesktopSectionDisplay() {
+    width: 80%;
+    height:50rem;
+    margin:auto;
+    
+}
+@mixin MobileSectionDisplay(){
+    width:90%;
+    height:40rem;
+    margin:auto;
+}
+
 .main{
     width: 100%;
     height:60rem;
@@ -98,14 +112,12 @@ border: .5rem solid #b87605;
     }
 }
 .projects{
-    height: 80rem;
+    height: 200rem;
     width: 100%;
     background-color: #000;
 }
 .projects__work{
-    width: 80%;
-    height:30rem;
-    margin:auto;
+    @include DesktopSectionDisplay();
 }
 .projects__work_title{
     color:#fff;
@@ -127,6 +139,7 @@ border: .5rem solid #b87605;
     margin:4rem 0rem;
     color:#fff;
     background-color:#0C0E13;
+    
 }
 .project__work_info__company{
     font-size: 33px;
@@ -145,13 +158,139 @@ border: .5rem solid #b87605;
     margin: 2rem auto;
 }
 .project__work_info__resume{
-    
+    width:18rem;
     line-height: 1rem;
-    margin: 9rem auto 0rem;
+    margin: 9rem 2rem;
     height:1.3rem;
     color:#fff;
     font-size: 25px;
     text-decoration: none;
     border-bottom: solid #b87605 1rem;
     
+}
+.project__work_info__resume:hover{
+    padding-bottom: -1rem;
+    cursor: pointer;
+    margin-bottom: 0rem;
+    line-height: 0rem;
+    border-bottom: solid #b87605 1rem;
+}
+
+.projects__projects{
+    @include DesktopSectionDisplay();
+}
+.projects__grid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__blogs{
+    @include DesktopSectionDisplay();
+
+}
+// sm-breakpoint;
+@media (max-width:500px){
+    .main{
+        width: 100%;
+        height:60rem;
+        
+       
+    }
+    .main__head{
+        width: 100%;    
+        margin: auto;
+        height: 55rem;
+        
+    }
+    .main__head_empty{
+        width: 100%;
+        height:5rem;
+    
+    }
+    .main__head_name{
+        margin-top: 3rem;
+        text-align: center;
+        width: 100%;
+        line-height: 1rem;
+        color:#fff;
+        text-transform: capitalize;
+        font-size: 33px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+    }
+    .main__head_introduction{
+        width: 90%;
+        line-height: 2.1rem;
+        text-align: center;
+        margin: auto;
+        color:#fff;
+        font-size: 20px;
+        margin-top:3rem;
+    }
+    .main__rectangle{ 
+        animation-name: rectangle-rotate;
+        
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        top:20rem;
+        left:1rem;
+        height: 5rem;
+        width:5rem;
+        border: .5rem solid #b87605;
+    }
+    .projects{
+        height: 200rem;
+        width: 100%;
+        background-color: #000;
+    }
+    .projects__work{
+        @include MobileSectionDisplay();
+    }
+    .projects__work_title{
+        color:#fff;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        
+        margin-bottom:1rem;
+        text-align: center;
+    }
+    .project__work_info{
+        height:25rem;
+        width:100%;
+        margin:4rem 0rem;
+        color:#fff;
+        background-color:#0C0E13;   
+    }
+    .project__work_info__description{
+        width: 95%;
+        height:7rem;
+        line-height: 1.4rem;
+        font-size: 20px;
+        margin: 1rem auto;  
+    }
+    .project__work_info__resume{
+        width:95%;
+        line-height: 1rem;
+        margin: 4rem auto;
+        font-size: 20px;
+    }
+    .projects__projects{
+        @include MobileSectionDisplay();
+        height: 100rem;
+
+    }
+    .projects__grid{
+        display: block;
+        
+    }
+}
+// md-breakpoint;
+@media (max-width:900px) and (min-width:501px ){
+    .main{
+    background-color: red;
+    width:100%;
+    }
 }
