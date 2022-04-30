@@ -5,7 +5,7 @@
 
 .main {
   width: 100%;
-  height: 60rem;
+  height: 40rem;
   background-color: #0c0e13;
 }
 
@@ -17,12 +17,12 @@
 
 .main__head_empty {
   width: 100%;
-  height: 8rem;
+  height: 3rem;
 }
 
 .main__head_logo {
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
   margin: auto;
   border-radius: 50%;
   background-image: url("../images/unnamed (2).jpg");
@@ -31,7 +31,7 @@
 }
 
 .main__head_name {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
   width: 100%;
   line-height: 1rem;
@@ -44,11 +44,11 @@
 
 .main__head_introduction {
   width: 70%;
-  line-height: 2.1rem;
+  line-height: 2rem;
   text-align: center;
   margin: auto;
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 3rem;
 }
 
@@ -116,20 +116,20 @@
 }
 
 .projects {
-  height: 200rem;
+  height: 150rem;
   width: 100%;
   background-color: #000;
 }
 
 .projects__work {
-  width: 80%;
-  height: 50rem;
+  width: 90%;
+  height: 40rem;
   margin: auto;
 }
 
 .projects__work_title {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 600;
@@ -144,9 +144,9 @@
 }
 
 .project__work_info {
-  height: 35rem;
-  width: 30rem;
-  margin: 4rem 0rem;
+  height: 25rem;
+  width: 20rem;
+  margin: 2rem 0rem;
   color: #fff;
   background-color: #0C0E13;
 }
@@ -163,16 +163,15 @@
 
 .project__work_info__description {
   width: 85%;
-  height: 7rem;
-  line-height: 2rem;
-  font-size: 25px;
-  margin: 2rem auto;
+  line-height: 1.6rem;
+  font-size: 18px;
+  margin: 0.2rem auto;
 }
 
 .project__work_info__resume {
   width: 18rem;
   line-height: 1rem;
-  margin: 9rem 2rem;
+  margin: 1rem;
   height: 1.3rem;
   color: #fff;
   font-size: 25px;
@@ -188,9 +187,48 @@
   border-bottom: solid #b87605 1rem;
 }
 
+.project__projects_info {
+  height: 30rem;
+  width: 20rem;
+  margin: 2rem 0rem;
+  color: #fff;
+  background-color: #0C0E13;
+}
+
+.project__work_view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: 4rem;
+  margin: 1.5rem auto;
+}
+
+.project__work_view_btn {
+  height: 3rem;
+  width: 45%;
+  background-color: #fff;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 16px;
+  border: 2px solid #b87605;
+  cursor: pointer;
+}
+
+.project__work_view_btn:hover {
+  border: 2px solid #FFF;
+  background-color: #b87605;
+  color: #0C0E13;
+}
+
 .projects__projects {
-  width: 80%;
-  height: 50rem;
+  width: 90%;
+  height: 40rem;
   margin: auto;
 }
 
@@ -204,8 +242,8 @@
 }
 
 .projects__blogs {
-  width: 80%;
-  height: 50rem;
+  width: 90%;
+  height: 40rem;
   margin: auto;
 }
 
@@ -307,7 +345,7 @@
   }
 }
 
-@media (max-width: 900px) and (min-width: 651px) {
+@media (max-width: 950px) and (min-width: 651px) {
   .main {
     width: 100%;
     height: 60rem;
