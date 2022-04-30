@@ -34,7 +34,9 @@ const Body = () => {
                 <div className="project__work_info">
                     <h1 className="project__work_info__company">venmun</h1>
                     <p className="project__work_info__description">
-                    Worked as a developer advocate and later a content creator responsible for creating how-to written and video content and managing the developer community.
+                    Worked as a Frontend Engineer in a promising startup, constructing the UI according to the designs provided, 
+                    also intuitive in implementing desings that were approved by the committe
+                    and implementing complex logic. 
                     </p>
                     <p  className="project__work_info__resume">Read More on my resume</p>
                     
@@ -47,10 +49,22 @@ const Body = () => {
                 <p className="project__work_line"></p>
                 <section className="projects__grid">
                     <div className="project__work_info">
-                
+                        <h1 className="project__work_info__company">AudioPhile</h1>
+                        <p className="project__work_info__description">
+                        An e-commerce application (Prototype) designed for facilating the sales of audio products.
+                        <br />
+                        It was built with React, using typescript and Redux for state management.
+                        For the design, I immplemented Chakra UI(The Best, for me).
+                        </p>
+                        
+                        <p  className="project__work_info__resume">Read More on my resume</p>
                     </div>
                     <div className="project__work_info">
-                
+                        <h1 className="project__work_info__company">Product Feedback App</h1>
+                        <p className="project__work_info__description">
+                            Worked as a developer advocate and later a content creator responsible for creating how-to written and video content and managing the developer community.
+                        </p>    
+                        <p  className="project__work_info__resume">Read More on my resume</p>
                     </div>
                     <div className="project__work_info">
                 
@@ -93,7 +107,6 @@ const Body = () => {
     return (
         <>
             <section className="main">
-                <div className="main__rectangle"></div>
                 <Header/>
             </section>
             <Body/>
