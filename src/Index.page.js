@@ -53,7 +53,7 @@ const Body = () => {
                         An e-commerce application (Prototype) designed for facilating the sales of audio products.
                         <br />
                         It was built with React, using typescript and Redux for state management.
-                        For the design, I immplemented Chakra UI(The Best, for me).
+                        For the design, I implemented Chakra UI(The Best, for me).
                         </p>
                         
                         <div className="project__work_view">
@@ -96,7 +96,7 @@ const Body = () => {
                                  to earn money for us..
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_btn">Read more</button>
+                            <button className="project__work_view_read">Read more</button>
                                           
                         </div>  
         
@@ -110,7 +110,7 @@ const Body = () => {
                                 A basic intro for newbies.                                 
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_btn">Read more</button>
+                            <button className="project__work_view_read">Read more</button>
                                           
                         </div>  
     
@@ -121,21 +121,16 @@ const Body = () => {
                             <p className="project__work_info__description">
                                 This Article talks about a p2e game, in the web3.0 space, while writing this I learnt a lot about web3 and p2e
                                 <br /> The gem game StarCrazy is a play-to-earn game that is built on the IoT blockchain. 
-                                
-                                <br />
-                                It is a mobile-based game,
-                                
+                                                            
                                  
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_btn">Read more</button>
+                            <button className="project__work_view_read">Read more</button>
                                           
                         </div>  
     
                     </div>
-                </section>
-                <section className="projects__grid">
-                <div className="project__work_info">
+                    <div className="project__work_info">
                             <h1 className="project__work_info__company">NASDEX: Embracing Equity on Blockchain</h1>
                             <p className="project__work_info__description">
                             In this brochure, we’ll be visiting the universe that is NASDEX,
@@ -145,12 +140,13 @@ const Body = () => {
                                 
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_btn">Read more</button>
+                            <button className="project__work_view_read">Read more</button>
                                           
                         </div>  
     
                     </div>
                 </section>
+                
 
             </article>
 
