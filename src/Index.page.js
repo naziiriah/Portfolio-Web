@@ -10,12 +10,15 @@ const Header = () => {
                 nazir abubakar adinoyi
             </h2>
             <p className="main__head_introduction">
-                I have worked in the technology industry for 5 years as a technical writer, software engineer and recently, a developer advocate and content creator.
+                I have worked in the technology industry for more than 2 years as a content writer, blogger and a software engineer.
                 <br />
             <br/>
-                Extremely skilled at my job, I am currently authoring my debut book on Building Web APIs with Python and FastAPI. I am also the creator of the FastAPI and MongoDB boilerplate and a co-author of the open source BuyCoins SDK, both written in Python.
+                Extremely skilled at my job, I am currently working as a Frontend developer on a remote ecommerce startup, somewhere in Nigeria.
+
             <br/>
                 Occasionally, I write about my technical exploits and random technical topics on my blog.
+            <br />
+                I enjoy writing peoms, discussing philosophy and politics, reading books. <br /> (Basically a geek).
             </p>
 
         </header>
@@ -37,7 +40,7 @@ const Body = () => {
                     also intuitive in implementing desings that were approved by the committe
                     and implementing complex logic. 
                     </p>
-                    <p  className="project__work_info__resume">Read More on my resume</p>
+                    <p  className="project__work_info__resume" onClick={()=> window.open("https://docs.google.com/document/d/1Dns9o9z6MBw4plER8D7hdLQPChwrjMpwRiWmWwc1aOQ/edit?usp=sharing", "_blank")}>Read More on my resume</p>
                     
                 </div>
             </article>
@@ -57,8 +60,8 @@ const Body = () => {
                         </p>
                         
                         <div className="project__work_view">
-                            <button className="project__work_view_btn">view code</button>
-                            <button className="project__work_view_btn">Visit live site</button>                
+                            <button className="project__work_view_btn" onClick={()=> window.open("https://github.com/naziiriah/AudioPhile", "_blank")}>view code</button>
+                            <button className="project__work_view_btn" onClick={()=> window.open("https://audiophile-five.vercel.app/", "_blank")}>Visit live site</button>                
                         </div>  
                     </div>
 
@@ -70,8 +73,8 @@ const Body = () => {
                             Built with React, state management was handled with REDUX toolkit, Chakra UI.
                         </p>    
                         <div className="project__work_view">
-                            <button className="project__work_view_btn">view code</button>
-                            <button className="project__work_view_btn">Visit live site</button>                
+                            <button className="project__work_view_btn" onClick={()=> window.open("https://github.com/naziiriah/products-feedback-app", "_blank")}>view code</button>
+                            <button className="project__work_view_btn" onClick={()=> window.open("https://product-feedback-app-bca8d.web.app/", "_blank")}>Visit live site</button>                
                         </div>  
                     </div>
 
@@ -96,7 +99,7 @@ const Body = () => {
                                  to earn money for us..
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_read">Read more</button>
+                            <button className="project__work_view_read" onClick={()=> window.open("https://nazirwrites.hashnode.dev/meta-pebble-the-rise-of-machinefi", "_blank")}>Read more</button>
                                           
                         </div>  
         
@@ -110,7 +113,7 @@ const Body = () => {
                                 A basic intro for newbies.                                 
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_read">Read more</button>
+                            <button className="project__work_view_read" onClick={()=> window.open("https://nazirwrites.hashnode.dev/what-i-learnt-about-typescript", "_blank")}>Read more</button>
                                           
                         </div>  
     
@@ -125,7 +128,7 @@ const Body = () => {
                                  
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_read">Read more</button>
+                            <button className="project__work_view_read" onClick={()=> window.open("https://nazirwrites.hashnode.dev/starcrazy-the-future-of-gamefi", "_blank")}>Read more</button>
                                           
                         </div>  
     
@@ -140,16 +143,11 @@ const Body = () => {
                                 
                             </p>    
                             <div className="project__work_view">
-                            <button className="project__work_view_read">Read more</button>
-                                          
+                            <button className="project__work_view_read"onClick={()=> window.open("https://nazirwrites.hashnode.dev/nasdex-embracing-equity-on-blockchain", "_blank")}>Read more</button>          
                         </div>  
-    
                     </div>
                 </section>
-                
-
             </article>
-
         </section>
     )
 }
